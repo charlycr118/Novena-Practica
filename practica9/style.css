@@ -1,0 +1,13 @@
+.gridcontainer{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    /*grid-template-columns: [inicio] 100px [linea2] 100px [linea3] auto [final];*/
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-rows: [r-start] 100px [r-end] 30px [r-line] auto [r-fin];
+}
+
+.gridcont-element{
+    background-color: aqua;
+}

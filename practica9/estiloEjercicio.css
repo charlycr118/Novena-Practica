@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    width: 80%;
+    margin: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "colors rules total grafica"
+    "grafbar grafbar total grafica"
+    "grafbar grafbar bandera encuestas"
+    "palomitas palomitas palomitas encuestas";
+}
+
+.container__color{
+    grid-area: colors;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.container__rules{
+    grid-area: rules;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.container__total{
+    grid-area: total;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.container__grafica{
+    grid-area: grafica;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.container__grafbar{
+    grid-area: grafbar;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.container__bandera{
+    grid-area: bandera;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.container__palomitas{
+    grid-area: palomitas;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.container__encuestas{
+    grid-area: encuestas;
+    background-color: blue;
+    border-radius: 10px;
+}
